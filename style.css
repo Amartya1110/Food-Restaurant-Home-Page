@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ------ Background Image ------ */
+/* ------------------------------ */
+html {
+  /* height: 100vh; */
+  background-color: rgb(85 75 112);
+  background-image: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  /* opacity: 0.5; */
+}
+
+body{
+  margin: 5vh 5vw;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  height: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar> div:first-child {
+  flex-grow: 1;
+  align-self: flex-end;
+}
+
+.navbar> div:nth-child(2) {
+  flex-grow: 2;
+}
+
+.navbar> div:last-child {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar> div:first-child img {
+  height: 7vh;
+}
+
+.list {
+  /* In order to make the unordered list to cover the entire height of its parent div */
+  /* make the height of the unordered list same as its parent div(i.e.; 100%) */
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.list > li{
+  list-style: none;
+  color: #ffc50a;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.button-small {
+  border: none;
+  font-size: 20px;
+  padding: 15px 40px;
+  background-color: #ee2944f7;
+  color: white;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.hero-heading {
+  color: #ffc50a;
+  font-weight: 800;
+  font-size: 12vh;
+  text-align: center;
+  /* To reduce the gap between each line */
+  line-height: 90%;
+  opacity: 0.8;
+}
+
+.button-large {
+  background-color: #ee2944f7;
+  border: none;
+  opacity: 0.9;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 10px 30px;
+}
+
+.bottom {
+  align-self: flex-end;
+}
+
+.bottom img {
+  height: 20vh;
+}
+
